@@ -1,4 +1,4 @@
-package bye
+package bye;
 
 import java.io.*;
 import java.util.LinkedList;

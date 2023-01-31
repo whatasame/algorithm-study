@@ -1,36 +1,25 @@
-package bye
-
+package bye;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Code_10866 {
-    public static int[] deque;
+
+public class Code_10845 {
+    public static int[] queue;
     public static int capacity;
     public static int front;
     public static int rear;
     public static int size;
 
-    public static void addFront(int x) {
-        if(front < 0) front = capacity - 1;
-        deque[front--] = x;
+    public static void enqueue(int x) {
+        if(rear == capacity) rear = 0;
+        queue[rear++] = x;
         size++;
     }
-    public static void addBack(int x) {
-        if(rear == capacity - 1) rear = -1;
-        deque[++rear] = x;
-        size++;
-    }
-    public static int deleteFront() {
+    public static int dequeue() {
         if(size <= 0) return -1;
-        if(front == capacity - 1) front = -1;
+        if(front == capacity) front = 0;
         size--;
-        return deque[++front];
-    }
-    public static int deleteBack() {
-        if(size <= 0) return -1;
-        if(rear < -1) rear = capacity - 1;
-        size--;
-        return deque[rear--];
+        return queue[front++];
     }
     public static int size() {
         return size;
@@ -41,35 +30,28 @@ public class Code_10866 {
     }
     public static int getFront() {
         if(size <= 0) return -1;
-        else return deque[front + 1];
+        else return queue[front];
     }
-    public static int getBack() {
+    public static int getRear() {
         if(size <= 0) return -1;
-        else return deque[rear];
+        else return queue[rear - 1];
     }
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        size = 0;
+        size = front = rear = 0;
         capacity = Integer.parseInt(bf.readLine());
-        front = rear = capacity / 2;
-        deque = new int[capacity];
+        queue = new int[capacity];
 
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < capacity; i++) {
             String[] input = bf.readLine().split(" ");
             switch (input[0]) {
-                case "push_front":
-                    addFront(Integer.parseInt(input[1]));
+                case "push":
+                    int num = Integer.parseInt(input[1]);
+                    enqueue(num);
                     break;
-                case "push_back":
-                    addBack(Integer.parseInt(input[1]));
-                    break;
-                case "pop_front":
-                    sb.append(deleteFront()).append("\n");
-                    //System.out.println(dequeue());
-                    break;
-                case "pop_back":
-                    sb.append(deleteBack()).append("\n");
+                case "pop":
+                    sb.append(dequeue()).append("\n");
                     //System.out.println(dequeue());
                     break;
                 case "size":
@@ -85,7 +67,7 @@ public class Code_10866 {
                     //System.out.println(getFront());
                     break;
                 case "back":
-                    sb.append(getBack()).append("\n");
+                    sb.append(getRear()).append("\n");
                     //System.out.println(getRear());
                     break;
             }
