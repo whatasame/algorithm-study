@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Problem1406 {
+class BOJ1406 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();

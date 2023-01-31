@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Problem9012 {
+class BOJ9012 {
     public static String solve(String s){
         int count = 0;
 

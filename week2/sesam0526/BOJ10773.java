@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Problem10773 {
+class BOJ10773 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 

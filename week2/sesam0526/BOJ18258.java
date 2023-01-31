@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem18258 {
+public class BOJ18258 {
     static StringBuilder sb = new StringBuilder();
     static int[] command = new int[2000000];
     static int size = 0;

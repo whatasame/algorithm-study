@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem2164 {
+public class BOJ2164 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         Queue<Integer> queue = new LinkedList<>();

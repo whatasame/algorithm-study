@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Problem1935 {
+class BOJ1935 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 

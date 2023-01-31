@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem2493 {
+public class BOJ2493 {
     public static void main(String[] args) throws IOException, NumberFormatException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         Stack<Integer> stack = new Stack<>();

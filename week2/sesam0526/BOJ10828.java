@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Problem10828 {
+class BOJ10828 {
     public static int[] stack;
     public static int size = 0;
 

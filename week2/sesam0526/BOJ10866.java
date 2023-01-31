@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Problem10866 {
+public class BOJ10866 {
 
     static int front = 0;
     static int back = 0;
