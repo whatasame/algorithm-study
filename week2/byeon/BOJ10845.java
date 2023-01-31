@@ -1,9 +1,9 @@
-package bye;
+package byeon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Code_10845 {
+public class BOJ10845 {
     public static int[] queue;
     public static int capacity;
     public static int front;

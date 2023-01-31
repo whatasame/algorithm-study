@@ -1,10 +1,10 @@
-package bye;
+package byeon;
 
 import java.io.*;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Code_1406 {
+public class BOJ1406 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

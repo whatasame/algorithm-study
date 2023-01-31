@@ -1,10 +1,10 @@
-package bye;
+package byeon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Code_1874 {
+public class BOJ1874 {
     public static int[] stack;
     public static int top;
     public  static int capacity;

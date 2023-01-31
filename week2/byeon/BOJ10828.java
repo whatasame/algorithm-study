@@ -1,9 +1,9 @@
-package bye;
+package byeon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Code_10828 {
+public class BOJ10828 {
     public static int[] stack;
     public static int top;
     public  static int capacity;
