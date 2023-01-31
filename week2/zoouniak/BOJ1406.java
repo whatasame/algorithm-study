@@ -3,7 +3,7 @@ import java.util.Stack;
 //linkedlist실패
 //listiterator 실패
 //stackt성공 시간복잡도 O(1)
-public class s1406 {
+public class BOJ1406 {
     public static void main(String[] args) throws IOException {
         Stack<Character> left = new Stack<>();
         Stack<Character> right = new Stack<>();
