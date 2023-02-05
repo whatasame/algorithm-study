@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 //컬랙션의 reverse메서드를 사용하니 시간초과가 났다
 //일일이 뒤ㅣ집지않고 R을 구현해야한다 ->reverse변수
-public class s5430 {
+public class BOJ5430 {
     static Deque<Integer> arr  = new LinkedList<>();
     static boolean reverse = false; //reverse를위한 변수
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

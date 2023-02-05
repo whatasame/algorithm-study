@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class s10828 {
+public class BOJ10828 {
     static Stack<Integer>stack = new Stack<>();
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

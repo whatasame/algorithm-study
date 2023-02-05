@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 /*후위 표기식을 앞에서부터 계산했을 때, 식의 결과와 중간 결과가 -20억보다 크거나 같고, 20억보다 작거나 같은 입력만 주어진다.
 * int 쓰면 됨*/
-public class s1935 {
+public class BOJ1935 {
     static Stack<String> stack= new Stack<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br=  new BufferedReader(new InputStreamReader(System.in));

@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Deque;
 import java.util.LinkedList;
 //덱 collection 사용
-public class s2164 {
+public class BOJ2164 {
     static Deque<Integer> deque = new LinkedList<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

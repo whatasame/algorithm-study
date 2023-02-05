@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 //우선순위큐 클래스가 잇엇다..
-public class s1927 {
+public class BOJ1927 {
     public static PriorityQueue<Integer> heap = new PriorityQueue<>();
 
     public static void main(String[] args) throws IOException {

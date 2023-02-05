@@ -5,7 +5,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class s18258 {
+public class BOJ18258 {
     static Deque<Integer> queue = new LinkedList<>();
 
     public static void main(String[] args) throws IOException {
