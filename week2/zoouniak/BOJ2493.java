@@ -28,7 +28,7 @@ public class BOJ2493 {
             }
             sb.append(pass).append(" ");
             top.push(num);
-            index.push(i++);
+            index.push(i++);//tower클래스 만들기
 
         }
         System.out.print(sb);
